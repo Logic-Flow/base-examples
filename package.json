@@ -2,7 +2,7 @@
   "name": "logicflow-base",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "step1/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
