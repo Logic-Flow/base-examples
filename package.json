@@ -9,8 +9,6 @@
   },
   "dependencies": {
     "@logicflow/core": "1.0.0-alpha.3",
-    "@logicflow/extension": "1.0.0-alpha.3",
-    "lodash-es": "4.17.21",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
