@@ -17,9 +17,6 @@ lf.render({
       x: 100,
       y: 100,
       text: { x: 100, y: 100, value: "节点1" }
-      // properties: {
-      //   disabled: true
-      // }
     },
     {
       id: "node_id_2",
@@ -50,11 +47,9 @@ lf.render({
   ]
 });
 
-window.onload = () => {
-  document.querySelector("#js_select").addEventListener("click", () => {
-    console.log(55);
-    lf.setProperties("node_id_1", {
-      disabled: true
-    });
+lf.on("node:click", ({ data }) => {
+  lf.setProperties(data.id, {
+    disabled: !data.properties.disabled,
+    scale: 2
   });
-};
+});
