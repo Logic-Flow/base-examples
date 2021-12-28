@@ -2,7 +2,7 @@
   "name": "step3",
   "version": "1.0.0",
   "description": "",
-  "main": "step3/index.js",
+  "main": "step4/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
