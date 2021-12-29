@@ -1,8 +1,8 @@
 {
-  "name": "logicflow-step5",
+  "name": "logicflow-step6",
   "version": "1.0.0",
   "description": "",
-  "main": "step5/index.js",
+  "main": "step6/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
