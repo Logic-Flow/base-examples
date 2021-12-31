@@ -1,14 +1,14 @@
 {
-  "name": "logicflow-step6",
+  "name": "logicflow-step7",
   "version": "1.0.0",
   "description": "",
-  "main": "step6/index.js",
+  "main": "step7/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@logicflow/core": "1.0.0-alpha.10",
+    "@logicflow/core": "1.0.0",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
