@@ -2,7 +2,7 @@
   "name": "logicflow-base10",
   "version": "1.0.0",
   "description": "",
-  "main": "step_10_keyboard/index.js",
+  "main": "step_11_editConfig/index.js",
   "scripts": {
     "start": "parcel --public-url step_10_keyboard/app.html --open",
     "build": "parcel build index.html"
