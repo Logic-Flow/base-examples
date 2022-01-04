@@ -1,8 +1,8 @@
 import LogicFlow from "@logicflow/core";
 import "@logicflow/core/dist/style/index.css";
 import data from "./data.js";
-import UserTask from "./UserTask";
-import StartTask from "./StartTask";
+import UserTask from "../common/UserTask";
+import StartTask from "../common/StartTask";
 
 const lf = new LogicFlow({
   container: document.querySelector("#app"),
