@@ -30,9 +30,8 @@ class UserTaskView extends RectNode {
   }
   getShape() {
     const { model } = this.props;
-    const { x, y, width, height, radius, properties } = model;
+    const { x, y, width, height, radius } = model;
     const style = model.getNodeStyle();
-    console.log(properties);
     return h("g", {}, [
       h("rect", {
         ...style,
