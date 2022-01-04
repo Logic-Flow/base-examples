@@ -1,10 +1,10 @@
 {
-  "name": "logicflow-base9",
+  "name": "logicflow-base10",
   "version": "1.0.0",
   "description": "",
-  "main": "step9-background/index.js",
+  "main": "step_10_keyboard/index.js",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel --public-url step_10_keyboard/app.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
