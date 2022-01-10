@@ -9,19 +9,24 @@ const data = {
     {
       id: "2",
       type: "rect",
-      x: 320,
+      x: 420,
       y: 100
     },
     {
       id: "3",
       type: "circle",
-      x: 320,
-      y: 200
+      x: 380,
+      y: 260
     }
   ],
   edges: [
     {
-      type: "line",
+      type: "ProLine",
+      sourceNodeId: "1",
+      targetNodeId: "2"
+    },
+    {
+      type: "ProLine",
       sourceNodeId: "1",
       targetNodeId: "3"
     }
