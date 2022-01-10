@@ -2,7 +2,7 @@
   "name": "logicflow-base10",
   "version": "1.0.0",
   "description": "",
-  "main": "step_11_editConfig/index.js",
+  "main": "step_13_pro_line/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
