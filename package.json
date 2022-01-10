@@ -4,7 +4,7 @@
   "description": "",
   "main": "step_11_editConfig/index.js",
   "scripts": {
-    "start": "parcel --public-url step_10_keyboard/app.html --open",
+    "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
