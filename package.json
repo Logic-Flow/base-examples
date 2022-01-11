@@ -1,14 +1,15 @@
 {
-  "name": "logicflow-base10",
+  "name": "logicflow-base14",
   "version": "1.0.0",
   "description": "",
-  "main": "step_13_pro_line/index.js",
+  "main": "step_14_hideAnchor/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
     "@logicflow/core": "1.0.0",
+    "@logicflow/extension": "1.0.2",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
