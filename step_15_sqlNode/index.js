@@ -9,7 +9,13 @@ const lf = new LogicFlow({
 });
 
 lf.register(sqlNode);
-
+lf.setDefaultEdgeType("bezier");
+lf.setTheme({
+  bezier: {
+    stroke: "#afafaf",
+    strokeWidth: 1
+  }
+});
 lf.render({
   nodes: [
     {
@@ -41,19 +47,19 @@ lf.render({
       x: 400,
       y: 100,
       properties: {
-        tableName: "Users",
+        tableName: "Settings",
         fields: [
           {
             key: "id",
             type: "string"
           },
           {
-            key: "name",
-            type: "string"
+            key: "key",
+            type: "integer"
           },
           {
-            key: "age",
-            type: "integer"
+            key: "value",
+            type: "string"
           }
         ]
       }

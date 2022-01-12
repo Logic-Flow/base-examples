@@ -8,7 +8,9 @@ class SqlNode extends HtmlNode {
     } = this.props.model;
     rootEl.setAttribute("class", "table-container");
     const container = document.createElement("div");
-    container.className = "table-node";
+    container.className = `table-node table-color-${Math.ceil(
+      Math.random() * 4
+    )}`;
     const tableNameElement = document.createElement("div");
     tableNameElement.innerText = tableName;
     tableNameElement.className = "table-name";
@@ -33,6 +35,9 @@ class SqlNode extends HtmlNode {
 }
 
 class SqlNodeModel extends HtmlNodeModel {
+  /**
+   * 给model自定义添加字段方法
+   */
   addField(item) {
     this.properties.fields.push(item);
     this.setAttributes();
