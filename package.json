@@ -8,8 +8,8 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@logicflow/core": "1.0.3",
-    "@logicflow/extension": "1.0.3",
+    "@logicflow/core": "1.0.5",
+    "@logicflow/extension": "1.0.5",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
