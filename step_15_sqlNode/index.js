@@ -45,7 +45,7 @@ lf.render({
       id: "node_id_2",
       type: "sql-node",
       x: 400,
-      y: 200,
+      y: 100,
       properties: {
         tableName: "Settings",
         fields: [
