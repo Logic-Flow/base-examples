@@ -4,7 +4,7 @@ class CustomCircleModel extends CircleNodeModel {
   setAttributes() {
     this.r = 40;
   }
-  getDetaultAnchor() {
+  getDefaultAnchor() {
     return [];
   }
 }

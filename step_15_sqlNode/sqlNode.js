@@ -64,7 +64,7 @@ class SqlNodeModel extends HtmlNodeModel {
     };
     this.sourceRules.push(circleOnlyAsTarget);
   }
-  getDetaultAnchor() {
+  getDefaultAnchor() {
     const {
       id,
       x,
