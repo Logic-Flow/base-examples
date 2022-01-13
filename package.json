@@ -1,8 +1,8 @@
 {
-  "name": "logicflow-base15",
+  "name": "logicflow-base16",
   "version": "1.0.0",
   "description": "",
-  "main": "step_15_sqlNode/index.js",
+  "main": "step_16_menu/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
