@@ -1,8 +1,8 @@
 {
-  "name": "logicflow-base16",
+  "name": "logicflow-base17",
   "version": "1.0.0",
   "description": "",
-  "main": "step_16_menu/index.js",
+  "main": "step_17_customAnchor/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
