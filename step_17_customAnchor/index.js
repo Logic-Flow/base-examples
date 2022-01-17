@@ -24,5 +24,7 @@ document.querySelector("#js_getEdgeData").addEventListener("click", () => {
 document.querySelector("#js_changeEdgeType").addEventListener("click", () => {
   const { edges } = lf.getGraphData();
   const type = edges[0].type === "custom-edge" ? "custom-edge2" : "custom-edge";
-  lf.changeEdgeType(edges[0].id, type);
+  edges.forEach((edge) => {
+    lf.changeEdgeType(edge.id, type);
+  })
 });
