@@ -1,15 +1,15 @@
 {
-  "name": "logicflow-base20",
+  "name": "logicflow-base21",
   "version": "1.0.0",
   "description": "",
-  "main": "step_20_controlAndMinimap/index.js",
+  "main": "step_21_download/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@logicflow/core": "1.0.7-alpha.0",
-    "@logicflow/extension": "1.0.7-alpha.0",
+    "@logicflow/core": "1.0.7-alpha.1",
+    "@logicflow/extension": "1.0.7-alpha.1",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
