@@ -1,8 +1,8 @@
 {
-  "name": "logicflow-base19",
+  "name": "logicflow-base20",
   "version": "1.0.0",
   "description": "",
-  "main": "step_19_dndPanel/index.js",
+  "main": "step_20_controlAndMinimap/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
