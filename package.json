@@ -1,16 +1,16 @@
 {
-  "name": "logicflow-base22",
+  "name": "logicflow-base24",
   "version": "1.0.0",
   "description": "",
-  "main": "step_23_moveRule/index.js",
+  "main": "step_24_group/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "7.16.7",
-    "@logicflow/core": "1.1.0-alpha.0",
-    "@logicflow/extension": "1.1.0-alpha.0",
+    "@logicflow/core": "1.1.0-alpha.7",
+    "@logicflow/extension": "1.1.0-alpha.7",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
