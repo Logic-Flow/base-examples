@@ -45,13 +45,14 @@ lf.render({
       id: "rect_3",
       type: "rect",
       x: 200,
-      y: 200
+      y: 100
     },
     {
       id: "group_2",
       type: "sub-process",
       x: 300,
-      y: 120
+      y: 120,
+      children: ["rect_3"]
     }
   ]
 });

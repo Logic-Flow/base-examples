@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "7.16.7",
-    "@logicflow/core": "1.1.0-alpha.6",
-    "@logicflow/extension": "1.1.0-alpha.6",
+    "@logicflow/core": "1.1.0-alpha.7",
+    "@logicflow/extension": "1.1.0-alpha.7",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {

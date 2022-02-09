@@ -11,9 +11,19 @@ class MyGroupModel extends GroupNode.model {
   }
   getNodeStyle() {
     const style = super.getNodeStyle();
-    style.stroke = "rgb(24, 125, 255)";
+    style.stroke = "#989891";
     style.strokeWidth = 1;
+    style.strokeDasharray = "3 3";
+    if (this.isSelected) {
+      style.stroke = "rgb(124, 15, 255)";
+    }
+    if (this.isFolded) {
+      style.fill = "#47C769";
+    }
     return style;
+  }
+  getDefaultAnchor() {
+    return [];
   }
 }
 
