@@ -8,6 +8,13 @@ class MyGroupModel extends GroupNode.model {
     this.foldable = true;
     this.width = 400;
     this.height = 200;
+    const noTarget = {
+      message: "不允许连接分组",
+      validate: (sourceNode, targetNode, sourceAnchor, targetAnchor) => {
+        return false;
+      }
+    };
+    this.targetRules.push(noTarget);
   }
   getNodeStyle() {
     const style = super.getNodeStyle();
@@ -22,8 +29,15 @@ class MyGroupModel extends GroupNode.model {
     }
     return style;
   }
-  getDefaultAnchor() {
-    return [];
+  // 隐藏锚点而不是设置锚点数为0
+  // 因为分组内部节点与外部节点相连时，
+  // 如果折叠分组，需要分组代替内部节点与外部节点相连。
+  getAnchorStyle() {
+    const style = super.getAnchorStyle();
+    style.stroke = "transparent";
+    style.fill = "none";
+    style.hover.stroke = "transparent";
+    return style;
   }
 }
 
