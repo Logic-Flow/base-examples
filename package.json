@@ -1,16 +1,16 @@
 {
-  "name": "logicflow-base25",
+  "name": "logicflow-base26",
   "version": "1.0.0",
   "description": "",
-  "main": "step_25_customEdgeTextPosition/index.js",
+  "main": "step_26_nodeResize/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "7.16.7",
-    "@logicflow/core": "1.1.0-alpha.7",
-    "@logicflow/extension": "1.1.0-alpha.7",
+    "@logicflow/core": "1.1.7-alpha.1",
+    "@logicflow/extension": "1.1.7-alpha.1",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
