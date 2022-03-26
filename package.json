@@ -1,14 +1,15 @@
 {
-  "name": "logicflow-base26",
+  "name": "logicflow-selection",
   "version": "1.0.0",
   "description": "",
-  "main": "step_26_nodeResize/index.js",
+  "main": "examples/024_nodeResize/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "7.16.7",
+    "@babel/plugin-syntax-class-properties": "7.12.13",
     "@logicflow/core": "1.1.7-alpha.1",
     "@logicflow/extension": "1.1.7-alpha.1",
     "parcel-bundler": "^1.6.1"
