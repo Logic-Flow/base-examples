@@ -1,7 +1,7 @@
 import LogicFlow from "@logicflow/core";
 import "@logicflow/core/dist/style/index.css";
 import "@logicflow/extension/lib/style/index.css";
-import "../step_15_sqlNode/style.css";
+import "../013_sqlNode/style.css";
 
 import ResizableRect from "./ResizableRect";
 import ResizableEllipse from "./ResizableEllipse";

@@ -26,9 +26,9 @@ class ContextPad {
       this.hideContextMenu();
     });
   }
-  setContextMenuByType = (type, menus) => {
+  setContextMenuByType(type, menus) {
     this.menuTypeMap.set(type, menus);
-  };
+  }
   /**
    * 隐藏菜单
    */
